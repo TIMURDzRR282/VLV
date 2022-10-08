@@ -1,0 +1,39 @@
+#задание 1
+R=int(input())
+print(R*2)
+#Задание 2
+S=int(input())
+print(S**2)
+#задание 3
+hour=int(input())
+minutes=int(input())
+seconds=int(input())
+print('seconds:')=(hour*3600)+(minutes*60)+seconds
+print('part day:')=((hour*3600)+(minutes*60)+seconds/24/3600)
+#Задание 4
+V=int(input())
+if V%10=7:
+    print("True")
+#Задание 5
+a = int(input("a= "))
+b = int(input("b = "))
+c = int(input("c = "))
+Diskr= (b**2)-4*a*c
+if Diskr>0:
+    x1=-b+Diskr**0.5/(2*a)
+    x2=-b-Diskr**0.5/(2*a)
+    print(x1, x2)
+    else Diskr==0
+    x=-b/(2*a)
+    print(x)
+#Задание 6
+a,b,c,=int(input()),int(input()),int(input())
+L=max(a,b,c)
+print(L)
+#Задание 7
+l,m,n=float(input()),float(input()),float(input())
+c=l+m+n/2
+g=l+m+n
+print(round(c, 2))
+  if l % 5 == 0 or m % 5 == 0 or n % 5 == 0:
+      print(g)
